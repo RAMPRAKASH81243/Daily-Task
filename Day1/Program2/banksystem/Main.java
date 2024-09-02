@@ -46,7 +46,7 @@ public class Main {
 			case 5:// Display all Accounts
 				bank.displayAllAccounts();
 				break;
-			case 6:
+			case 6://Search For an account
 				System.out.println("Enter the Account number: ");
 				String searchAccountNumber = sc.next();
 				bank.searchAccount(searchAccountNumber);
